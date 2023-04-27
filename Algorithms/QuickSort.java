@@ -8,8 +8,6 @@ public class QuickSort {
     }
 
     public static void quickSort(int arr[], int start, int end){
-        int pivot = arr.length;
-        //[5, 7, 2, 9, 3, 4, 0, 1, 6, 8]
         if(start >= end)return;
         
         int index = partition(arr, start, end);
