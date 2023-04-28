@@ -1,3 +1,4 @@
+package Algorithms;
 public class QuickSort {
     public static void main(String[] args){
         int data[] = {5, 7, 2, 9, 3, 4, 0, 1, 6, };
